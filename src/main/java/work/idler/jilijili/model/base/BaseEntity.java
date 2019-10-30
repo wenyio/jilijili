@@ -6,6 +6,7 @@ import lombok.ToString;
 import work.idler.jilijili.common.utils.DateUtil;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -82,7 +83,7 @@ import java.util.Date;
 @Data
 @ToString
 @EqualsAndHashCode
-public class BaseEntity {
+public class BaseEntity implements Serializable {
 
     /**
      * Create Time

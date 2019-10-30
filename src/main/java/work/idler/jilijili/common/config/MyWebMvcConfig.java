@@ -23,11 +23,11 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
      */
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/u/**")
+        registry.addMapping("/api/**")
                 .allowedHeaders("*")
                 .allowedMethods("*")
                 .maxAge(1800)
-                .allowedOrigins("http://localhost:8888");
+                .allowedOrigins("http://localhost:8080");
     }
 
     // 将 LoginInterceptor 注入到 WebConfigurer 中
@@ -46,6 +46,6 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         // addPathPatterns("/**") 表示拦截所有的请求，
         // excludePathPatterns("/login", "/register") 表示除了登陆与注册之外，因为登陆注册不需要登陆也可以访问
-        registry.addInterceptor(loginInterceptor).addPathPatterns("/a/**").excludePathPatterns("/a/login");
+        registry.addInterceptor(loginInterceptor).addPathPatterns("/a/**").excludePathPatterns("/a/login", "/api/**", "/u/api/**");
     }
 }

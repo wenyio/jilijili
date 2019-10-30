@@ -1,5 +1,6 @@
 package work.idler.jilijili.service.impl;
 
+import org.springframework.stereotype.Service;
 import work.idler.jilijili.model.entity.VideoCategory;
 import work.idler.jilijili.repository.base.BaseRepository;
 import work.idler.jilijili.service.VideoCategoryService;
@@ -11,6 +12,7 @@ import work.idler.jilijili.service.base.AbstractCrudService;
  * @author isColt
  * @date 2019/10/27
  */
+@Service
 public class VideoCategoryServiceImpl extends AbstractCrudService<VideoCategory, Integer> implements VideoCategoryService {
 
     protected VideoCategoryServiceImpl(BaseRepository<VideoCategory, Integer> baseRepository) {

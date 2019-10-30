@@ -55,11 +55,6 @@ spring:
     # 控制台显示SQL
     show-sql: true
 
-  # 访问restful接口必须加/api前缀
-  data:
-    rest:
-      base-path: /api
-
   # 配置国际化
   messages:
     basename: i18n/messages
