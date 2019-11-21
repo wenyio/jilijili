@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "953665",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6049796",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9713055",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "10918080",
+      "name": "bilibili-line",
+      "font_class": "bilibili-line",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    }
+  ]
+}

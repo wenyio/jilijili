@@ -12,7 +12,7 @@ server:
 spring:
   mail:
     username: 1329208516@qq.com
-    password: ljmfxjakdvnxjhii
+    password: qcdpkokhuzfwfecd
     host: smtp.qq.com
 
   # 数据源配置
@@ -58,6 +58,9 @@ spring:
   # 配置国际化
   messages:
     basename: i18n/messages
+  # jackson 默认比中国少8小时
+  jackson:
+    time-zone: GMT+8
 
 # 模板引擎配置
 thymeleaf:

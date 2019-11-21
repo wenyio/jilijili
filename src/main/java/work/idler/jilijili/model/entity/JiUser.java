@@ -40,7 +40,7 @@ public class JiUser extends BaseEntity {
      * 性别
      */
     @Column
-    private String sex;
+    private int sex; // 0 无 1 男 2 女
 
     /**
      * 生日

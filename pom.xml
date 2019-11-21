@@ -77,6 +77,11 @@
             <artifactId>druid-spring-boot2-actuator-starter</artifactId>
             <version>${com.alibaba.druid.version}</version>
         </dependency>
+        <!--引入邮件stater-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

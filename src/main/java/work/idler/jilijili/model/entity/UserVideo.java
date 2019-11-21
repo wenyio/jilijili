@@ -50,6 +50,18 @@ public class UserVideo extends BaseEntity {
     private String url;
 
     /**
+     * 播放次数
+     */
+    @Column
+    private int nums;
+
+    /**
+     * 评论量
+     */
+    @Column
+    private int comments;
+
+    /**
      * 点赞数
      */
     @Column
