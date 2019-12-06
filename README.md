@@ -6,7 +6,9 @@
 
 ### 预览
 
-![](doc/img/index.jpg)
+> 路径: `doc/img`
+
+![](./doc/img/index.jpg)
 ![](./doc/img/video.jpg)
 ![](./doc/img/menu.jpg)
 ![](./doc/img/center.jpg)
