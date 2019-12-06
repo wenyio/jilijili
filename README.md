@@ -6,7 +6,7 @@
 
 ### 预览
 
-![](./doc/img/index.jpg)
+![](doc/img/index.jpg)
 ![](./doc/img/video.jpg)
 ![](./doc/img/menu.jpg)
 ![](./doc/img/center.jpg)
