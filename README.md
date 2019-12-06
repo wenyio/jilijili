@@ -6,7 +6,7 @@
 
 ### 预览
 
-![](https://github.com/iscolt/img_of_colt/blob/master/img/jilijili/menu.jpg?raw=true)
+[](https://github.com/iscolt/img_of_colt/blob/master/img/jilijili/menu.jpg?raw=true)
 [](https://github.com/iscolt/img_of_colt/blob/master/img/jilijili/index.jpg?raw=true)
 
 
