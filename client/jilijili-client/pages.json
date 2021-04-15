@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationStyle":"custom",
+				"navigationBarTitleText": "叽哩叽哩",
+				"titleNView": {
+					"backgroundColor": "#fff",
+					"titletext": "iflower",
+					"titlecolor": "#000",
+					"buttons": [{
+						"text": "\ue617",
+						"fontSrc": "/static/font/iconfont.ttf",
+						"fontSize": "52rpx",
+						"float": "right",
+						"id": "message"
+					},{
+						"text": "\ue67a",
+						"fontSrc": "/static/font/iconfont.ttf",
+						"fontSize": "52rpx",
+						"float": "left",
+						"id": "menu"
+					},{
+						"text": "\ue75d",
+						"fontSrc": "/static/font/iconfont.ttf",
+						"fontSize": "52rpx",
+						"float": "left",
+						"id": "icon"
+					}],
+					 "searchInput":{
+						"align": "center",
+						"placeholder": "搜你想搜",
+						"borderRadius":"50upx",
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"titleNView": {
+					"backgroundColor": "#ffff",
+					"titlecolor": "#de688b"
+				}
+			}
+        },{
+            "path" : "pages/login/forget",
+            "style" : {
+				"navigationBarTitleText": "忘记密码",
+				"titleNView": {
+					"backgroundColor": "#ffff",
+					"titlecolor": "#de688b"
+				}
+			}
+        },{
+            "path" : "pages/login/register",
+            "style" : {
+				"navigationBarTitleText": "注册",
+				"titleNView": {
+					"backgroundColor": "#ffff",
+					"titlecolor": "#de688b"
+				}
+			}
+        },{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "",
+				"titleNView": {
+					"titletext": "iflower",
+					"titlecolor": "#000"
+				},
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/userinfo/userinfo",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"titleNView": {
+					"titletext": "iflower",
+					"titlecolor": "#000"
+				},
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/set/set",
+            "style" : {
+				"navigationBarTitleText": "设置中心"
+			}
+        }
+        ,{
+            "path" : "pages/info/info",
+            "style" : {
+				"navigationBarTitleText": "个人资料"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "jilijili",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
